@@ -1,0 +1,28 @@
+﻿<Window x:Class="CustomQuiz.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:CustomQuiz"
+        mc:Ignorable="d"
+        Title="Custom Quizzes" Height="400" Width="350" ResizeMode="CanMinimize">
+    <Grid Margin="10">
+        <StackPanel HorizontalAlignment="Center">
+            <TextBlock Margin="10" FontSize="36" FontWeight="Bold">
+                Custom Quizzes
+            </TextBlock>
+            <Button Margin="10" FontSize="28" Click="Button_Do_Quizzes_Click">
+                Do Quizzes
+            </Button>
+            <Button Margin="10" FontSize="28" Click="Button_Make_Quizzes_Click">
+                Make Quizzes
+            </Button>
+            <Button Margin="10" FontSize="28" Click="Button_Edit_Click">
+                Edit Quizzes
+            </Button>
+            <Button Margin="10" FontSize="28" Click="Button_Exit_Click">
+                Exit
+            </Button>
+        </StackPanel>
+    </Grid>
+</Window>
